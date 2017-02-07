@@ -1,4 +1,5 @@
 momoToDo/momoToDo/GoogleService-Info.plist
+<<<<<<< HEAD
 # Compiled source #
 ###################
 *.com
@@ -29,10 +30,11 @@ momoToDo/momoToDo/GoogleService-Info.plist
 
 # OS generated files #
 ######################
-*/.DS_Store
-*/.DS_Store?
+.DS_Store
+.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
+
