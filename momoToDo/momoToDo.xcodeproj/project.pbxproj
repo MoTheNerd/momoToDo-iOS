@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E94486F3879FE98D1EC3A38 /* Pods_momoToDoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473FBA2FE7F3364F9C6DA7C0 /* Pods_momoToDoUITests.framework */; };
+		6B6532FF73761C58C6DBC1EE /* Pods_momoToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03753A4CA96E440AE468F1AE /* Pods_momoToDo.framework */; };
+		CE667CA5FA32FCA5A196C893 /* Pods_momoToDoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB562834C5D3E9B9DD7DA8D7 /* Pods_momoToDoTests.framework */; };
 		FAA7F9291E49411300C31A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7F9281E49411300C31A90 /* AppDelegate.swift */; };
 		FAA7F92B1E49411300C31A90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7F92A1E49411300C31A90 /* ViewController.swift */; };
 		FAA7F92E1E49411300C31A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA7F92C1E49411300C31A90 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		FAA7F9331E49411300C31A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA7F9311E49411300C31A90 /* LaunchScreen.storyboard */; };
 		FAA7F93E1E49411300C31A90 /* momoToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7F93D1E49411300C31A90 /* momoToDoTests.swift */; };
 		FAA7F9491E49411300C31A90 /* momoToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7F9481E49411300C31A90 /* momoToDoUITests.swift */; };
+		FAA7F9571E494AD300C31A90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAA7F9561E494AD300C31A90 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03753A4CA96E440AE468F1AE /* Pods_momoToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momoToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA6BB6B5BED9A87FBBE3989 /* Pods-momoToDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momoToDoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-momoToDoTests/Pods-momoToDoTests.release.xcconfig"; sourceTree = "<group>"; };
+		473FBA2FE7F3364F9C6DA7C0 /* Pods_momoToDoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momoToDoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D08ED4C16C8496E6589263 /* Pods-momoToDoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momoToDoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-momoToDoUITests/Pods-momoToDoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68932242A10CC21371B28760 /* Pods-momoToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momoToDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-momoToDo/Pods-momoToDo.release.xcconfig"; sourceTree = "<group>"; };
+		805D4ECA915B1ED09CDCF35B /* Pods-momoToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momoToDo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-momoToDo/Pods-momoToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA825BA16B528CEFA76659D1 /* Pods-momoToDoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momoToDoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-momoToDoUITests/Pods-momoToDoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9047192545F24E5668CCB1 /* Pods-momoToDoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momoToDoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-momoToDoTests/Pods-momoToDoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB562834C5D3E9B9DD7DA8D7 /* Pods_momoToDoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momoToDoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA7F9251E49411300C31A90 /* momoToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momoToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA7F9281E49411300C31A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA7F92A1E49411300C31A90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		FAA7F9441E49411300C31A90 /* momoToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momoToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA7F9481E49411300C31A90 /* momoToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = momoToDoUITests.swift; sourceTree = "<group>"; };
 		FAA7F94A1E49411300C31A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA7F9561E494AD300C31A90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6532FF73761C58C6DBC1EE /* Pods_momoToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE667CA5FA32FCA5A196C893 /* Pods_momoToDoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E94486F3879FE98D1EC3A38 /* Pods_momoToDoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85442827AA118E2AC8CBE44C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805D4ECA915B1ED09CDCF35B /* Pods-momoToDo.debug.xcconfig */,
+				68932242A10CC21371B28760 /* Pods-momoToDo.release.xcconfig */,
+				BE9047192545F24E5668CCB1 /* Pods-momoToDoTests.debug.xcconfig */,
+				1EA6BB6B5BED9A87FBBE3989 /* Pods-momoToDoTests.release.xcconfig */,
+				BA825BA16B528CEFA76659D1 /* Pods-momoToDoUITests.debug.xcconfig */,
+				63D08ED4C16C8496E6589263 /* Pods-momoToDoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE9D647FC710B73A393267E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03753A4CA96E440AE468F1AE /* Pods_momoToDo.framework */,
+				DB562834C5D3E9B9DD7DA8D7 /* Pods_momoToDoTests.framework */,
+				473FBA2FE7F3364F9C6DA7C0 /* Pods_momoToDoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAA7F91C1E49411200C31A90 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				FAA7F93C1E49411300C31A90 /* momoToDoTests */,
 				FAA7F9471E49411300C31A90 /* momoToDoUITests */,
 				FAA7F9261E49411300C31A90 /* Products */,
+				85442827AA118E2AC8CBE44C /* Pods */,
+				EE9D647FC710B73A393267E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				FAA7F92F1E49411300C31A90 /* Assets.xcassets */,
 				FAA7F9311E49411300C31A90 /* LaunchScreen.storyboard */,
 				FAA7F9341E49411300C31A90 /* Info.plist */,
+				FAA7F9561E494AD300C31A90 /* GoogleService-Info.plist */,
 			);
 			path = momoToDo;
 			sourceTree = "<group>";
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA7F94D1E49411300C31A90 /* Build configuration list for PBXNativeTarget "momoToDo" */;
 			buildPhases = (
+				47312809C7B3FE57D52C660D /* [CP] Check Pods Manifest.lock */,
 				FAA7F9211E49411200C31A90 /* Sources */,
 				FAA7F9221E49411200C31A90 /* Frameworks */,
 				FAA7F9231E49411200C31A90 /* Resources */,
+				9F3DC30C055BF07B2F6F65C5 /* [CP] Embed Pods Frameworks */,
+				CD156C8A80961DCAADB34197 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA7F9501E49411300C31A90 /* Build configuration list for PBXNativeTarget "momoToDoTests" */;
 			buildPhases = (
+				978220A6220546B4D8AE694C /* [CP] Check Pods Manifest.lock */,
 				FAA7F9351E49411300C31A90 /* Sources */,
 				FAA7F9361E49411300C31A90 /* Frameworks */,
 				FAA7F9371E49411300C31A90 /* Resources */,
+				7DBD7DE4EEBD8F85A272037F /* [CP] Embed Pods Frameworks */,
+				2AEF1B402CE44D4C0BCB7E59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA7F9531E49411300C31A90 /* Build configuration list for PBXNativeTarget "momoToDoUITests" */;
 			buildPhases = (
+				F0D133CFBB16851589F97D9E /* [CP] Check Pods Manifest.lock */,
 				FAA7F9401E49411300C31A90 /* Sources */,
 				FAA7F9411E49411300C31A90 /* Frameworks */,
 				FAA7F9421E49411300C31A90 /* Resources */,
+				41C304ED3F94C6900BFA3FB5 /* [CP] Embed Pods Frameworks */,
+				A57FD911DBEA102231DE014D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA7F9331E49411300C31A90 /* LaunchScreen.storyboard in Resources */,
+				FAA7F9571E494AD300C31A90 /* GoogleService-Info.plist in Resources */,
 				FAA7F9301E49411300C31A90 /* Assets.xcassets in Resources */,
 				FAA7F92E1E49411300C31A90 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AEF1B402CE44D4C0BCB7E59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momoToDoTests/Pods-momoToDoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C304ED3F94C6900BFA3FB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momoToDoUITests/Pods-momoToDoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47312809C7B3FE57D52C660D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DBD7DE4EEBD8F85A272037F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momoToDoTests/Pods-momoToDoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		978220A6220546B4D8AE694C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3DC30C055BF07B2F6F65C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momoToDo/Pods-momoToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A57FD911DBEA102231DE014D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momoToDoUITests/Pods-momoToDoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD156C8A80961DCAADB34197 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momoToDo/Pods-momoToDo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D133CFBB16851589F97D9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAA7F9211E49411200C31A90 /* Sources */ = {
@@ -413,6 +604,7 @@
 		};
 		FAA7F94E1E49411300C31A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805D4ECA915B1ED09CDCF35B /* Pods-momoToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7VE8CQ2P35;
@@ -427,6 +619,7 @@
 		};
 		FAA7F94F1E49411300C31A90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68932242A10CC21371B28760 /* Pods-momoToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7VE8CQ2P35;
@@ -441,6 +634,7 @@
 		};
 		FAA7F9511E49411300C31A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9047192545F24E5668CCB1 /* Pods-momoToDoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +650,7 @@
 		};
 		FAA7F9521E49411300C31A90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA6BB6B5BED9A87FBBE3989 /* Pods-momoToDoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +666,7 @@
 		};
 		FAA7F9541E49411300C31A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA825BA16B528CEFA76659D1 /* Pods-momoToDoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7VE8CQ2P35;
@@ -485,6 +681,7 @@
 		};
 		FAA7F9551E49411300C31A90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D08ED4C16C8496E6589263 /* Pods-momoToDoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7VE8CQ2P35;
